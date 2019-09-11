@@ -1,0 +1,757 @@
+{
+  "info": {
+      "totalrecordsperquery": 5,
+      "totalrecords": 233399,
+      "pages": 46680,
+      "page": 42,
+      "next": "https://api.harvardartmuseums.org/object?size=5&page=43&apikey=9dd70c50-d496-11e9-b452-cf59c12c4c6f",
+      "prev": "https://api.harvardartmuseums.org/object?size=5&page=41&apikey=9dd70c50-d496-11e9-b452-cf59c12c4c6f"
+  },
+  "records": [
+      {
+          "accessionyear": 1939,
+          "technique": null,
+          "mediacount": 0,
+          "edition": null,
+          "totalpageviews": 6,
+          "groupcount": 0,
+          "objectnumber": "1939.269.19",
+          "colorcount": 10,
+          "lastupdate": "2019-09-04T06:54:41-0400",
+          "rank": 63230,
+          "imagecount": 1,
+          "description": null,
+          "dateoflastpageview": "2019-03-07",
+          "dateoffirstpageview": "2010-12-10",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP10568_dynmc",
+          "colors": [
+              {
+                  "percent": 0.59805128205128,
+                  "spectrum": "#ed765a",
+                  "color": "#fafae1",
+                  "css3": "#ffffe0",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.31471794871795,
+                  "spectrum": "#955ba5",
+                  "color": "#e1e1e1",
+                  "css3": "#dcdcdc",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.037230769230769,
+                  "spectrum": "#8c5fa8",
+                  "color": "#c8c8c8",
+                  "css3": "#c0c0c0",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.015948717948718,
+                  "spectrum": "#8c5fa8",
+                  "color": "#afafaf",
+                  "css3": "#a9a9a9",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.0096410256410256,
+                  "spectrum": "#59ba4a",
+                  "color": "#64644b",
+                  "css3": "#696969",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.0082051282051282,
+                  "spectrum": "#8e5ea7",
+                  "color": "#96967d",
+                  "css3": "#808080",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.0078461538461538,
+                  "spectrum": "#6cbd45",
+                  "color": "#7d7d64",
+                  "css3": "#808080",
+                  "hue": "Yellow"
+              },
+              {
+                  "percent": 0.0048717948717949,
+                  "spectrum": "#2eb45d",
+                  "color": "#323232",
+                  "css3": "#2f4f4f",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.0033846153846154,
+                  "spectrum": "#3db657",
+                  "color": "#321919",
+                  "css3": "#000000",
+                  "hue": "Brown"
+              },
+              {
+                  "percent": 0.0001025641025641,
+                  "spectrum": "#6cbd45",
+                  "color": "#7d6432",
+                  "css3": "#a0522d",
+                  "hue": "Yellow"
+              }
+          ],
+          "dated": "20th century",
+          "contextualtextcount": 0,
+          "copyright": null,
+          "period": null,
+          "accessionmethod": "Gift",
+          "url": "https://www.harvardartmuseums.org/collections/object/206112",
+          "provenance": null,
+          "images": [
+              {
+                  "height": 890,
+                  "iiifbaseuri": "https://ids.lib.harvard.edu/ids/iiif/18724352",
+                  "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP10568_dynmc",
+                  "width": 1024,
+                  "publiccaption": null,
+                  "idsid": 18724352,
+                  "displayorder": 1,
+                  "format": "image/jpeg",
+                  "copyright": "President and Fellows of Harvard College",
+                  "imageid": 98049,
+                  "renditionnumber": "CARP10568"
+              }
+          ],
+          "publicationcount": 0,
+          "objectid": 206112,
+          "culture": "Chinese",
+          "verificationleveldescription": "Unchecked. Object information has not been verified for completeness and has not been vetted",
+          "standardreferencenumber": null,
+          "worktypes": [
+              {
+                  "worktypeid": "242",
+                  "worktype": "painting"
+              },
+              {
+                  "worktypeid": "8",
+                  "worktype": "album leaf"
+              }
+          ],
+          "department": "Department of Asian Art",
+          "state": null,
+          "markscount": 0,
+          "contact": "am_asianmediterranean@harvard.edu",
+          "titlescount": 1,
+          "id": 206112,
+          "title": "Cantonese Painting of an Unidentified Fish with Vertical Green Stripes",
+          "verificationlevel": 0,
+          "division": "Asian and Mediterranean Art",
+          "style": null,
+          "commentary": null,
+          "relatedcount": 0,
+          "datebegin": 0,
+          "labeltext": null,
+          "totaluniquepageviews": 5,
+          "dimensions": "36.5 x 38.7 cm (14 3/8 x 15 1/4 in.)",
+          "exhibitioncount": 0,
+          "techniqueid": null,
+          "dateend": 0,
+          "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Gift of DR. THOMAS BARBOUR",
+          "imagepermissionlevel": 0,
+          "signed": null,
+          "periodid": null,
+          "century": "20th century",
+          "classificationid": 26,
+          "medium": "One of fifty-four paintings (originally fifty-five); ink and color on paper",
+          "peoplecount": 0,
+          "accesslevel": 1,
+          "classification": "Paintings",
+          "seeAlso": [
+              {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/206112",
+                  "type": "IIIF Manifest",
+                  "format": "application/json",
+                  "profile": "http://iiif.io/api/presentation/2/context.json"
+              }
+          ]
+      },
+      {
+          "accessionyear": 1940,
+          "technique": null,
+          "mediacount": 0,
+          "edition": null,
+          "totalpageviews": 16,
+          "groupcount": 0,
+          "people": [
+              {
+                  "alphasort": "Hu, Zhengyan",
+                  "birthplace": null,
+                  "name": "Hu Zhengyan [Hu Cheng-yen]",
+                  "prefix": null,
+                  "personid": 25934,
+                  "gender": "unknown",
+                  "role": "Artist",
+                  "displayorder": 1,
+                  "culture": "Chinese",
+                  "displaydate": "c. 1582 -1672",
+                  "deathplace": null,
+                  "displayname": "Hu Zhengyan [Hu Cheng-yen]"
+              }
+          ],
+          "objectnumber": "1940.165.87",
+          "colorcount": 8,
+          "lastupdate": "2019-09-04T06:54:41-0400",
+          "rank": 63561,
+          "imagecount": 1,
+          "description": null,
+          "dateoflastpageview": "2019-08-12",
+          "dateoffirstpageview": "2010-12-10",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07634_dynmc",
+          "colors": [
+              {
+                  "percent": 0.6465641025641,
+                  "spectrum": "#e9715f",
+                  "color": "#e1c8af",
+                  "css3": "#f5deb3",
+                  "hue": "Orange"
+              },
+              {
+                  "percent": 0.21410256410256,
+                  "spectrum": "#e9715f",
+                  "color": "#e1e1c8",
+                  "css3": "#dcdcdc",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.046307692307692,
+                  "spectrum": "#8e5ea7",
+                  "color": "#96967d",
+                  "css3": "#808080",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.046205128205128,
+                  "spectrum": "#6cbd45",
+                  "color": "#7d7d64",
+                  "css3": "#808080",
+                  "hue": "Yellow"
+              },
+              {
+                  "percent": 0.022769230769231,
+                  "spectrum": "#59ba4a",
+                  "color": "#64644b",
+                  "css3": "#696969",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.018051282051282,
+                  "spectrum": "#4ab851",
+                  "color": "#4b4b32",
+                  "css3": "#556b2f",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.0049230769230769,
+                  "spectrum": "#2eb45d",
+                  "color": "#323232",
+                  "css3": "#2f4f4f",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.0010769230769231,
+                  "spectrum": "#e0626d",
+                  "color": "#af644b",
+                  "css3": "#cd5c5c",
+                  "hue": "Orange"
+              }
+          ],
+          "dated": "after 1633 - before 1703",
+          "contextualtextcount": 0,
+          "copyright": null,
+          "period": "Qing dynasty, 1644-1911",
+          "accessionmethod": "Purchase",
+          "url": "https://www.harvardartmuseums.org/collections/object/206120",
+          "provenance": null,
+          "images": [
+              {
+                  "height": 887,
+                  "iiifbaseuri": "https://ids.lib.harvard.edu/ids/iiif/18721512",
+                  "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07634_dynmc",
+                  "width": 1024,
+                  "publiccaption": null,
+                  "idsid": 18721512,
+                  "displayorder": 1,
+                  "format": "image/jpeg",
+                  "copyright": "President and Fellows of Harvard College",
+                  "imageid": 139314,
+                  "renditionnumber": "CARP07634"
+              }
+          ],
+          "publicationcount": 0,
+          "objectid": 206120,
+          "culture": "Chinese",
+          "verificationleveldescription": "Adequate. Object is adequately described but information may not be vetted",
+          "standardreferencenumber": null,
+          "worktypes": [
+              {
+                  "worktypeid": "278",
+                  "worktype": "print"
+              },
+              {
+                  "worktypeid": "8",
+                  "worktype": "album leaf"
+              }
+          ],
+          "department": "Department of Asian Art",
+          "state": null,
+          "markscount": 0,
+          "contact": "am_asianmediterranean@harvard.edu",
+          "titlescount": 2,
+          "id": 206120,
+          "title": "Rocks -- Illustration from the Ten Bamboo Studio Manual of Calligraphy and Painting (Shizhuzhai shuhua pu)",
+          "verificationlevel": 2,
+          "division": "Asian and Mediterranean Art",
+          "style": null,
+          "commentary": null,
+          "relatedcount": 0,
+          "datebegin": 1633,
+          "labeltext": null,
+          "totaluniquepageviews": 13,
+          "dimensions": "sight: 25 x 28.7 cm (9 13/16 x 11 5/16 in.)",
+          "exhibitioncount": 0,
+          "techniqueid": null,
+          "dateend": 1703,
+          "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Francis H. Burr Memorial Fund",
+          "imagepermissionlevel": 0,
+          "signed": null,
+          "periodid": 398,
+          "century": "17th-18th century",
+          "classificationid": 23,
+          "medium": "One page from a woodblock printed book mounted as an album leaf; ink and color on paper",
+          "peoplecount": 1,
+          "accesslevel": 1,
+          "classification": "Prints",
+          "seeAlso": [
+              {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/206120",
+                  "type": "IIIF Manifest",
+                  "format": "application/json",
+                  "profile": "http://iiif.io/api/presentation/2/context.json"
+              }
+          ]
+      },
+      {
+          "accessionyear": 1940,
+          "technique": null,
+          "mediacount": 0,
+          "edition": null,
+          "totalpageviews": 106,
+          "groupcount": 0,
+          "objectnumber": "1940.3",
+          "colorcount": 0,
+          "lastupdate": "2019-09-04T06:54:41-0400",
+          "rank": 63282,
+          "imagecount": 1,
+          "description": null,
+          "dateoflastpageview": "2019-06-10",
+          "dateoffirstpageview": "2009-10-18",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS39285_dynmc",
+          "dated": "12th-13th century",
+          "contextualtextcount": 0,
+          "copyright": null,
+          "period": "Song dynasty, 960-1279",
+          "accessionmethod": "Gift",
+          "url": "https://www.harvardartmuseums.org/collections/object/206123",
+          "provenance": null,
+          "publicationcount": 2,
+          "images": [
+              {
+                  "height": 801,
+                  "iiifbaseuri": "https://ids.lib.harvard.edu/ids/iiif/20678757",
+                  "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS39285_dynmc",
+                  "width": 1024,
+                  "publiccaption": null,
+                  "idsid": 20678757,
+                  "displayorder": 1,
+                  "format": "image/jpeg",
+                  "copyright": "President and Fellows of Harvard College",
+                  "imageid": 30227,
+                  "renditionnumber": "39285"
+              }
+          ],
+          "objectid": 206123,
+          "culture": "Chinese",
+          "verificationleveldescription": "Good. Object is well described and information is vetted",
+          "standardreferencenumber": null,
+          "worktypes": [
+              {
+                  "worktypeid": "389",
+                  "worktype": "vessel"
+              }
+          ],
+          "department": "Department of Asian Art",
+          "state": null,
+          "markscount": 0,
+          "contact": "am_asianmediterranean@harvard.edu",
+          "titlescount": 1,
+          "id": 206123,
+          "title": "Tea Bowl with Indented Lip and Russet Hare's-Fur Markings",
+          "verificationlevel": 3,
+          "division": "Asian and Mediterranean Art",
+          "style": null,
+          "commentary": null,
+          "relatedcount": 0,
+          "datebegin": 1100,
+          "labeltext": null,
+          "totaluniquepageviews": 75,
+          "dimensions": "H. 6.6 x Diam. 12.4 cm (2 5/8 x 4 7/8 in.)",
+          "exhibitioncount": 0,
+          "techniqueid": null,
+          "dateend": 1299,
+          "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Dr. Horace Emerson Campbell",
+          "imagepermissionlevel": 0,
+          "signed": null,
+          "periodid": 1442,
+          "century": "12th-13th century",
+          "classificationid": 57,
+          "medium": "Jian ware: dark gray stoneware with dark brown glaze, the markings in overglaze iron oxide, the base with a brush-written inscription reading 'Te'",
+          "peoplecount": 0,
+          "accesslevel": 1,
+          "classification": "Vessels",
+          "seeAlso": [
+              {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/206123",
+                  "type": "IIIF Manifest",
+                  "format": "application/json",
+                  "profile": "http://iiif.io/api/presentation/2/context.json"
+              }
+          ]
+      },
+      {
+          "accessionyear": 1940,
+          "technique": null,
+          "mediacount": 0,
+          "edition": null,
+          "totalpageviews": 28,
+          "groupcount": 0,
+          "people": [
+              {
+                  "alphasort": "Hu, Zhengyan",
+                  "birthplace": null,
+                  "name": "Hu Zhengyan [Hu Cheng-yen]",
+                  "prefix": null,
+                  "personid": 25934,
+                  "gender": "unknown",
+                  "role": "Artist",
+                  "displayorder": 1,
+                  "culture": "Chinese",
+                  "displaydate": "c. 1582 -1672",
+                  "deathplace": null,
+                  "displayname": "Hu Zhengyan [Hu Cheng-yen]"
+              }
+          ],
+          "objectnumber": "1940.165.24",
+          "colorcount": 8,
+          "lastupdate": "2019-09-04T06:54:41-0400",
+          "rank": 63498,
+          "imagecount": 1,
+          "description": null,
+          "dateoflastpageview": "2018-07-03",
+          "dateoffirstpageview": "2011-08-14",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07583_dynmc",
+          "colors": [
+              {
+                  "percent": 0.67793281653747,
+                  "spectrum": "#e9715f",
+                  "color": "#e1e1c8",
+                  "css3": "#dcdcdc",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.20191214470284,
+                  "spectrum": "#e9715f",
+                  "color": "#e1c8af",
+                  "css3": "#f5deb3",
+                  "hue": "Orange"
+              },
+              {
+                  "percent": 0.046511627906977,
+                  "spectrum": "#e76d63",
+                  "color": "#fae1e1",
+                  "css3": "#ffe4e1",
+                  "hue": "Red"
+              },
+              {
+                  "percent": 0.022118863049096,
+                  "spectrum": "#8e5ea7",
+                  "color": "#afaf96",
+                  "css3": "#a9a9a9",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.017829457364341,
+                  "spectrum": "#8e5ea7",
+                  "color": "#96967d",
+                  "css3": "#808080",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.013488372093023,
+                  "spectrum": "#8362aa",
+                  "color": "#7d7d7d",
+                  "css3": "#808080",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.011007751937984,
+                  "spectrum": "#7866ad",
+                  "color": "#646464",
+                  "css3": "#696969",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.0091989664082687,
+                  "spectrum": "#3db657",
+                  "color": "#4b4b4b",
+                  "css3": "#2f4f4f",
+                  "hue": "Grey"
+              }
+          ],
+          "dated": "after 1633 - before 1703",
+          "contextualtextcount": 0,
+          "copyright": null,
+          "period": "Qing dynasty, 1644-1911",
+          "accessionmethod": "Purchase",
+          "url": "https://www.harvardartmuseums.org/collections/object/206131",
+          "provenance": null,
+          "images": [
+              {
+                  "height": 881,
+                  "iiifbaseuri": "https://ids.lib.harvard.edu/ids/iiif/18721461",
+                  "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07583_dynmc",
+                  "width": 1024,
+                  "publiccaption": null,
+                  "idsid": 18721461,
+                  "displayorder": 1,
+                  "format": "image/jpeg",
+                  "copyright": "President and Fellows of Harvard College",
+                  "imageid": 96134,
+                  "renditionnumber": "CARP07583"
+              }
+          ],
+          "publicationcount": 0,
+          "objectid": 206131,
+          "culture": "Chinese",
+          "verificationleveldescription": "Adequate. Object is adequately described but information may not be vetted",
+          "standardreferencenumber": null,
+          "worktypes": [
+              {
+                  "worktypeid": "8",
+                  "worktype": "album leaf"
+              },
+              {
+                  "worktypeid": "278",
+                  "worktype": "print"
+              }
+          ],
+          "department": "Department of Asian Art",
+          "state": null,
+          "markscount": 0,
+          "contact": "am_asianmediterranean@harvard.edu",
+          "titlescount": 2,
+          "id": 206131,
+          "title": "Orchids -- Illustration from the Ten Bamboo Studio Manual of Calligraphy and Painting (Shizhuzhai shuhua pu)",
+          "verificationlevel": 2,
+          "division": "Asian and Mediterranean Art",
+          "style": null,
+          "commentary": null,
+          "relatedcount": 0,
+          "datebegin": 1633,
+          "labeltext": null,
+          "totaluniquepageviews": 24,
+          "dimensions": "sight: 25 x 28.7 cm (9 13/16 x 11 5/16 in.)",
+          "exhibitioncount": 0,
+          "techniqueid": null,
+          "dateend": 1703,
+          "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Francis H. Burr Memorial Fund",
+          "imagepermissionlevel": 0,
+          "signed": null,
+          "periodid": 398,
+          "century": "17th-18th century",
+          "classificationid": 23,
+          "medium": "One page from a woodblock printed book mounted as an album leaf; ink on paper",
+          "peoplecount": 1,
+          "accesslevel": 1,
+          "classification": "Prints",
+          "seeAlso": [
+              {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/206131",
+                  "type": "IIIF Manifest",
+                  "format": "application/json",
+                  "profile": "http://iiif.io/api/presentation/2/context.json"
+              }
+          ]
+      },
+      {
+          "accessionyear": 1940,
+          "technique": null,
+          "mediacount": 0,
+          "edition": null,
+          "totalpageviews": 25,
+          "groupcount": 0,
+          "people": [
+              {
+                  "alphasort": "Hu, Zhengyan",
+                  "birthplace": null,
+                  "name": "Hu Zhengyan [Hu Cheng-yen]",
+                  "prefix": null,
+                  "personid": 25934,
+                  "gender": "unknown",
+                  "role": "Artist",
+                  "displayorder": 1,
+                  "culture": "Chinese",
+                  "displaydate": "c. 1582 -1672",
+                  "deathplace": null,
+                  "displayname": "Hu Zhengyan [Hu Cheng-yen]"
+              }
+          ],
+          "objectnumber": "1940.165.29",
+          "colorcount": 8,
+          "lastupdate": "2019-09-04T06:54:41-0400",
+          "rank": 63503,
+          "imagecount": 1,
+          "description": null,
+          "dateoflastpageview": "2018-07-03",
+          "dateoffirstpageview": "2010-12-10",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07580_dynmc",
+          "colors": [
+              {
+                  "percent": 0.67511111111111,
+                  "spectrum": "#e9715f",
+                  "color": "#e1e1c8",
+                  "css3": "#dcdcdc",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.25288888888889,
+                  "spectrum": "#e9715f",
+                  "color": "#e1c8af",
+                  "css3": "#f5deb3",
+                  "hue": "Orange"
+              },
+              {
+                  "percent": 0.023604938271605,
+                  "spectrum": "#8e5ea7",
+                  "color": "#afaf96",
+                  "css3": "#a9a9a9",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.013975308641975,
+                  "spectrum": "#8e5ea7",
+                  "color": "#96967d",
+                  "css3": "#808080",
+                  "hue": "Green"
+              },
+              {
+                  "percent": 0.011753086419753,
+                  "spectrum": "#3db657",
+                  "color": "#4b4b4b",
+                  "css3": "#2f4f4f",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.011259259259259,
+                  "spectrum": "#7866ad",
+                  "color": "#646464",
+                  "css3": "#696969",
+                  "hue": "Grey"
+              },
+              {
+                  "percent": 0.011061728395062,
+                  "spectrum": "#6cbd45",
+                  "color": "#7d7d64",
+                  "css3": "#808080",
+                  "hue": "Yellow"
+              },
+              {
+                  "percent": 0.00034567901234568,
+                  "spectrum": "#2eb45d",
+                  "color": "#323232",
+                  "css3": "#2f4f4f",
+                  "hue": "Grey"
+              }
+          ],
+          "dated": "after 1633 - before 1703",
+          "contextualtextcount": 0,
+          "copyright": null,
+          "period": "Qing dynasty, 1644-1911",
+          "accessionmethod": "Purchase",
+          "url": "https://www.harvardartmuseums.org/collections/object/206136",
+          "provenance": null,
+          "images": [
+              {
+                  "height": 924,
+                  "iiifbaseuri": "https://ids.lib.harvard.edu/ids/iiif/18721458",
+                  "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP07580_dynmc",
+                  "width": 1024,
+                  "publiccaption": null,
+                  "idsid": 18721458,
+                  "displayorder": 1,
+                  "format": "image/jpeg",
+                  "copyright": "President and Fellows of Harvard College",
+                  "imageid": 96132,
+                  "renditionnumber": "CARP07580"
+              }
+          ],
+          "publicationcount": 0,
+          "objectid": 206136,
+          "culture": "Chinese",
+          "verificationleveldescription": "Adequate. Object is adequately described but information may not be vetted",
+          "standardreferencenumber": null,
+          "worktypes": [
+              {
+                  "worktypeid": "278",
+                  "worktype": "print"
+              },
+              {
+                  "worktypeid": "8",
+                  "worktype": "album leaf"
+              }
+          ],
+          "department": "Department of Asian Art",
+          "state": null,
+          "markscount": 0,
+          "contact": "am_asianmediterranean@harvard.edu",
+          "titlescount": 2,
+          "id": 206136,
+          "title": "Orchids -- Illustration from the Ten Bamboo Studio Manual of Calligraphy and Painting (Shizhuzhai shuhua pu)",
+          "verificationlevel": 2,
+          "division": "Asian and Mediterranean Art",
+          "style": null,
+          "commentary": null,
+          "relatedcount": 0,
+          "datebegin": 1633,
+          "labeltext": null,
+          "totaluniquepageviews": 23,
+          "dimensions": "sight: 25 x 28.7 cm (9 13/16 x 11 5/16 in.)",
+          "exhibitioncount": 0,
+          "techniqueid": null,
+          "dateend": 1703,
+          "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Francis H. Burr Memorial Fund",
+          "imagepermissionlevel": 0,
+          "signed": null,
+          "periodid": 398,
+          "century": "17th-18th century",
+          "classificationid": 23,
+          "medium": "One page from a woodblock printed book mounted as an album leaf; ink on paper",
+          "peoplecount": 1,
+          "accesslevel": 1,
+          "classification": "Prints",
+          "seeAlso": [
+              {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/206136",
+                  "type": "IIIF Manifest",
+                  "format": "application/json",
+                  "profile": "http://iiif.io/api/presentation/2/context.json"
+              }
+          ]
+      }
+  ]
+}
