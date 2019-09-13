@@ -1,0 +1,11 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #3aa9c2;
+  padding: 3px;
+  margin: 0px 2px 2px 2px;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}

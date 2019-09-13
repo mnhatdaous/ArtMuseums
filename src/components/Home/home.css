@@ -1,0 +1,17 @@
+.home {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.infinite-scroll {
+  overflow: hidden;
+  position: relative;
+}
+
+.spinner {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

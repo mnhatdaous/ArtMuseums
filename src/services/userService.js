@@ -1,4 +1,4 @@
-import _ from "lodash";
+import axios from "axios";
 import apis from "./apiList";
 
 const userService = {
@@ -8,29 +8,17 @@ const userService = {
 function getObjects(size, page) {
   return new Promise((resolve, reject) => {
     const apiUrl = `${apis.getObjectApi}&size=${size}&page=${page}`;
-
-    fetch(apiUrl, {
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
-      },
-      method: "GET"
-    })
+    axios
+      .get(apiUrl)
       .then(response => {
-        if (response.status) {
-          reject(constants.SOMETHING_WENT_WRONG);
-        }
-        return response.json();
-      })
-      .then(responseJson => {
-        if (!_.isEmpty(responseJson.info)) {
-          resolve(responseJson);
+        if (response.statusText !== "OK") {
+          reject(response.statusText);
         } else {
-          reject(constants.SOMETHING_WENT_WRONG);
+          resolve(response.data);
         }
       })
       .catch(error => {
-        reject(constants.SOMETHING_WENT_WRONG);
+        reject(error);
       });
   });
 }
