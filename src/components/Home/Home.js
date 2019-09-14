@@ -7,6 +7,8 @@ import Gallery from "react-grid-gallery";
 import * as objectAction from "./action";
 import "./home.css";
 
+const SIZE = 7;
+
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -24,7 +26,7 @@ class Home extends React.Component {
   loadMore = () => {
     const { info, onGetObjects, getObjectsPending } = this.props;
     const page = info.page ? ++info.page : 1;
-    if (!getObjectsPending) onGetObjects(6, page);
+    if (!getObjectsPending) onGetObjects(SIZE, page);
   };
 
   render() {
