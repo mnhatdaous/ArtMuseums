@@ -1,7 +1,7 @@
 import * as React from "react";
+import _ from "lodash";
 import { connect } from "react-redux";
 import InfiniteScroll from "react-infinite-scroller";
-// import ReactLoading from "react-loading";
 import Spinner from "react-spinkit";
 import Gallery from "react-grid-gallery";
 import * as objectAction from "./action";
@@ -16,16 +16,15 @@ class Home extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.getObjectsError) {
+    if (nextProps.info.page + 1 > nextProps.info.pages) {
       this.setState({ hasMore: false });
     }
   }
 
   loadMore = () => {
     const { info, onGetObjects, getObjectsPending } = this.props;
-    const size = info ? info.totalrecordsperquery : 6;
-    const page = info ? ++info.page : 1;
-    if (!getObjectsPending) onGetObjects(size, page);
+    const page = info.page ? ++info.page : 1;
+    if (!getObjectsPending) onGetObjects(6, page);
   };
 
   render() {

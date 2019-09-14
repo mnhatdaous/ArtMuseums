@@ -3,7 +3,8 @@ import reduxThunk from "redux-thunk";
 import logger from "redux-logger";
 import objectReducer from "./objectReducer";
 
-const middleware = [reduxThunk, logger];
+// const middleware = [reduxThunk, logger];
+const middleware = [reduxThunk];
 const rootReducer = combineReducers({ objectReducer });
 
 const store = createStore(rootReducer, compose(applyMiddleware(...middleware)));

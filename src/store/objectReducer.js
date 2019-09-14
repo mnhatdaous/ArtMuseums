@@ -32,7 +32,6 @@ export default function objectReducer(state = initialState, action) {
         ...state,
         getObjectsPending: false,
         getObjectsSuccess: false,
-        objects: [],
         getObjectsError: action.error
       };
     default:
