@@ -5,21 +5,30 @@ import InfiniteScroll from "react-infinite-scroller";
 import Spinner from "react-spinkit";
 import Gallery from "react-grid-gallery";
 import * as objectAction from "./action";
+import aLittleLoveGif from "./aLittleLove.gif";
+import aLittleLoveSong from "./aLittleLove.mp3";
 import "./home.css";
 
-const SIZE = 7;
+const SIZE = 8;
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
+    this.aLittleLoveAudio = new Audio(aLittleLoveSong);
     this.state = {
-      hasMore: true
+      hasMore: true,
+      isImgShow: false
     };
   }
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.info.page + 1 > nextProps.info.pages) {
       this.setState({ hasMore: false });
+    }
+
+    if (nextProps.info.page === 18) {
+      this.aLittleLoveAudio.play();
+      this.setState({ hasMore: false, isImgShow: true });
     }
   }
 
@@ -33,6 +42,9 @@ class Home extends React.Component {
     const { objects, getObjectsError } = this.props;
     return (
       <div className="home">
+        {this.state.isImgShow && (
+          <img src={aLittleLoveGif} className="popup" alt="Hello LamLam" />
+        )}
         <InfiniteScroll
           className="infinite-scroll"
           pageStart={0}
@@ -52,7 +64,7 @@ class Home extends React.Component {
             <Gallery images={objects} />
           </div>
         </InfiniteScroll>
-        {getObjectsError && <h1>Something goes wrong</h1>}
+        {/* {getObjectsError && <h1>{getObjectsError}</h1>} */}
       </div>
     );
   }

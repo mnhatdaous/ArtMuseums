@@ -15,3 +15,11 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
+.popup {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40%;
+  vertical-align: middle;
+  z-index: 1000;
+}
