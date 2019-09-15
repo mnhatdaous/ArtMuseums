@@ -20,6 +20,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 40%;
+  width: 75%;
   vertical-align: middle;
   z-index: 1000;
 }
