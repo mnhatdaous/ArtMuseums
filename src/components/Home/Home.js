@@ -26,10 +26,10 @@ class Home extends React.Component {
       this.setState({ hasMore: false });
     }
 
-    if (nextProps.info.page === 18) {
-      this.aLittleLoveAudio.play();
-      this.setState({ hasMore: false, isImgShow: true });
-    }
+   // if (nextProps.info.page === 18) {
+   //  this.aLittleLoveAudio.play();
+   //  this.setState({ hasMore: false, isImgShow: true });
+   // }
   }
 
   loadMore = () => {
